@@ -1,0 +1,57 @@
+# Penrith Beacon — Widget Context Protocol
+
+> Building the open standard for embeddable UI widgets in dashboard environments
+
+**[Widget Context Protocol (WCP)](https://widgetcontextprotocol.com)** is an open protocol that allows any server — Docker container, local process, or cloud service — to expose a compact UI widget and register capabilities with a host dashboard. Modelled on the principles of Anthropic's Model Context Protocol (MCP), WCP brings the same plug-and-play extensibility to visual interfaces.
+
+---
+
+## WCP Widget Catalogue
+
+All widgets are published as Docker images on [Docker Hub](https://hub.docker.com/u/penrithbeacon) and as source on GitHub. Each widget is a self-contained Flask server exposing the WCP manifest, health endpoint, and one or more UI components.
+
+| Widget | Version | WCP | Description | Links |
+|--------|:-------:|:---:|-------------|:-----:|
+| **QR Generator** | 1.7.0 | 2.1.0 | QR code generation for any URL or text | [GitHub](https://github.com/penrithbeacon/wcp-widget-qr-generator) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-qr-generator) |
+| **Weather Ticker** | 1.5.0 | 2.1.0 | Live weather data via Open-Meteo API | [GitHub](https://github.com/penrithbeacon/wcp-widget-weather-ticker) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-weather-ticker) |
+| **Theme Studio** | 1.6.0 | 2.1.0 | Theme gallery and editor — 15 built-in themes + custom theme creator | [GitHub](https://github.com/penrithbeacon/wcp-widget-theme-studio) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-theme-studio) |
+| **Radio** | 1.5.0 | 2.1.0 | Internet radio player — search and stream thousands of stations | [GitHub](https://github.com/penrithbeacon/wcp-widget-radio) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-radio) |
+| **Cloudflare** | 1.3.0 | 2.1.0 | Workers, Domains, and DNS management | [GitHub](https://github.com/penrithbeacon/wcp-widget-cloudflare) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-cloudflare) |
+| **GitHub** | 1.3.0 | 2.1.0 | Repository browser for any GitHub account | [GitHub](https://github.com/penrithbeacon/wcp-widget-github) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-github) |
+| **Docker** | 1.3.0 | 2.1.0 | Container management — local and remote Docker hosts | [GitHub](https://github.com/penrithbeacon/wcp-widget-docker) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-docker) |
+| **Claude Analytics** | 1.1.0 | 2.1.0 | Claude Code analytics + companion host agent *(experimental)* | [GitHub](https://github.com/penrithbeacon/wcp-widget-claude) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-claude) |
+
+### Companion Services
+
+| Service | Version | Description | Links |
+|---------|:-------:|-------------|:-----:|
+| **Docker Agent** | 1.1.0 | Authenticated Docker socket proxy for remote container management | [GitHub](https://github.com/penrithbeacon/wcp-docker-agent) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-docker-agent) |
+
+---
+
+## About Penrith Beacon
+
+This project is maintained by **Penrith Beacon Communications** ([penrithbeacon.com](https://penrithbeacon.com)), a developer tools initiative led by Anthony Harrison. The focus is on WCP — designing and implementing an open protocol for widget orchestration, and building a production-quality reference ecosystem of widgets, host applications, and developer tooling.
+
+The Penrith Beacon Design Studio, Kiosk, and Orchestration Manager form the reference WCP host implementation — a local dashboard and application platform that demonstrates the full protocol in action.
+
+---
+
+## Project Status
+
+| | |
+|--|--|
+| **WCP Version** | 2.1.0 |
+| **Active Work** | Layout Doctrine implementation, widget ecosystem expansion, WCP Developer Guide |
+| **Coming Soon** | WCP Bonjour — zero-configuration service discovery for widgets |
+| **Specification** | [widgetcontextprotocol.com](https://widgetcontextprotocol.com) |
+
+---
+
+## Links
+
+- [Widget Context Protocol Specification](https://widgetcontextprotocol.com)
+- [WCP Developer Guide](https://wcpdevelopersguide.com)
+- [Penrith Beacon](https://penrithbeacon.com)
+- [Docker Hub — penrithbeacon](https://hub.docker.com/u/penrithbeacon)
+
