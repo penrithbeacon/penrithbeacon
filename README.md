@@ -61,6 +61,6 @@ The suite will be publicly released when it reaches public beta. In the meantime
 ## Links
 
 - [Widget Context Protocol Specification](https://widgetcontextprotocol.com)
-- [WCP Developer Guide](https://wcpdevelopersguide.com)
+- [WCP Developer Guide](https://developerguide.widgetcontextprotocol.com/)
 - [Penrith Beacon](https://penrithbeacon.com)
 - [Docker Hub — penrithbeacon](https://hub.docker.com/u/penrithbeacon)
