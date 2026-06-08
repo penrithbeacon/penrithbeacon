@@ -8,7 +8,9 @@
 
 ## WCP Widget Catalogue
 
-All widgets are published as Docker images on [Docker Hub](https://hub.docker.com/u/penrithbeacon) and as source on GitHub. Each widget is a self-contained Flask server exposing the WCP manifest, health endpoint, and one or more UI components.
+The WCP protocol is open — anyone can build and publish their own widgets. The catalogue below lists the widgets we publish and maintain as part of the Penrith Beacon ecosystem. Our range will continue to grow: some designed for production needs and real-world solutions, others crafted specifically as tutorials to guide developers building their own WCP widgets.
+
+All images below are available on [Docker Hub](https://hub.docker.com/u/penrithbeacon) with full source on GitHub.
 
 | Widget | Version | WCP | Description | Links |
 |--------|:-------:|:---:|-------------|:-----:|
@@ -33,8 +35,6 @@ All widgets are published as Docker images on [Docker Hub](https://hub.docker.co
 
 This project is maintained by **Penrith Beacon Communications** ([penrithbeacon.com](https://penrithbeacon.com)), a developer tools initiative led by Anthony Harrison. The focus is on WCP — designing and implementing an open protocol for widget orchestration, and building a production-quality reference ecosystem of widgets, host applications, and developer tooling.
 
-The Penrith Beacon Design Studio, Kiosk, and Orchestration Manager form the reference WCP host implementation — a local dashboard and application platform that demonstrates the full protocol in action.
-
 ---
 
 ## Project Status
@@ -46,6 +46,16 @@ The Penrith Beacon Design Studio, Kiosk, and Orchestration Manager form the refe
 | **Coming Soon** | WCP Bonjour — zero-configuration service discovery for widgets |
 | **Specification** | [widgetcontextprotocol.com](https://widgetcontextprotocol.com) |
 
+### Penrith Beacon WCP Suite
+
+The full application suite — not yet publicly released — consists of:
+
+- **Penrith Beacon Design Studio** — the primary development environment for creating, configuring, and curating widget orchestrations
+- **Penrith Beacon Orchestration Manager** — standalone orchestration management without the full studio
+- **Penrith Beacon Kiosk (Alpha / Beta / Release)** — a graduated launch pipeline that, in association with the Orchestration Manager, manages the transition of any widget or application from alpha through beta to production release
+
+The suite will be publicly released when it reaches public beta. In the meantime, the widgets, protocol specification, and developer guide are available now for anyone building with WCP.
+
 ---
 
 ## Links
@@ -54,4 +64,3 @@ The Penrith Beacon Design Studio, Kiosk, and Orchestration Manager form the refe
 - [WCP Developer Guide](https://wcpdevelopersguide.com)
 - [Penrith Beacon](https://penrithbeacon.com)
 - [Docker Hub — penrithbeacon](https://hub.docker.com/u/penrithbeacon)
-
