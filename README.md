@@ -57,6 +57,38 @@ Your AI will:
 
 ---
 
+## 🔨 AI-Assisted Building
+
+**One URL. Any AI. Design and build any WCP artefact — widget or agent — from first question to running code.**
+
+The **[WCP AI Build](https://github.com/penrithbeacon/wcp-ai-build)** repository is the
+entry point for building with AI. Give your AI a single URL and it will orient you in the
+WCP ecosystem, ask what you want to build, and walk you through every design and
+implementation decision — including technology choice, component structure, data sources,
+and packaging.
+
+### How It Works
+
+Give your AI a single instruction:
+
+> _"Read https://github.com/penrithbeacon/wcp-ai-build/blob/main/AI-SKILL.md and help me build a WCP artefact."_
+
+Your AI will ask what you want to build and route you to the appropriate specialist skill.
+You can also go directly to the right skill:
+
+| Want to build | Give your AI this URL |
+|---------------|----------------------|
+| Not sure yet — start here | [wcp-ai-build/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build/blob/main/AI-SKILL.md) |
+| A widget | [wcp-ai-build-widget/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-widget/blob/main/AI-SKILL.md) |
+| An agent | [wcp-ai-build-agent/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-agent/blob/main/AI-SKILL.md) |
+| A macOS agent | [wcp-ai-build-agent-mac/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-agent-mac/blob/main/AI-SKILL.md) |
+
+You do not need to know the implementation technology. The AI will offer industry-standard
+options and proceed with a conservative, widely-adopted default if you prefer to defer
+that decision.
+
+---
+
 ## About Penrith Beacon
 
 This project is maintained by **Penrith Beacon Communications** ([penrithbeacon.com](https://penrithbeacon.com)), a developer tools initiative led by Anthony Harrison. The focus is on WCP — designing and implementing an open protocol for widget orchestration, and building a production-quality reference ecosystem of widgets, host applications, and developer tooling.
@@ -88,6 +120,10 @@ The suite will be publicly released when it reaches public beta. In the meantime
 
 - [Widget Context Protocol Specification](https://widgetcontextprotocol.com)
 - [WCP Developer Guide](https://dev.widgetcontextprotocol.com)
+- [WCP AI Build](https://github.com/penrithbeacon/wcp-ai-build)
+- [WCP AI Build — Widget](https://github.com/penrithbeacon/wcp-ai-build-widget)
+- [WCP AI Build — Agent](https://github.com/penrithbeacon/wcp-ai-build-agent)
+- [WCP AI Build — Agent (macOS)](https://github.com/penrithbeacon/wcp-ai-build-agent-mac)
 - [WCP AI Automation](https://github.com/penrithbeacon/wcp-ai-automation)
 - [Penrith Beacon](https://penrithbeacon.com)
 - [Docker Hub — penrithbeacon](https://hub.docker.com/u/penrithbeacon)
