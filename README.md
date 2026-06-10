@@ -14,46 +14,22 @@ All images below are available on [Docker Hub](https://hub.docker.com/u/penrithb
 
 | Widget | Version | WCP | Description | Links |
 |--------|:-------:|:---:|-------------|:-----:|
-| **QR Generator** | 1.8.0 | 2.1.0 | QR code generation for any URL or text | [GitHub](https://github.com/penrithbeacon/wcp-widget-qr-generator) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-qr-generator) |
-| **Weather Ticker** | 1.6.0 | 2.1.0 | Live weather data via Open-Meteo API | [GitHub](https://github.com/penrithbeacon/wcp-widget-weather-ticker) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-weather-ticker) |
-| **Theme Studio** | 1.7.0 | 2.1.0 | Theme gallery and editor — 15 built-in themes + custom theme creator | [GitHub](https://github.com/penrithbeacon/wcp-widget-theme-studio) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-theme-studio) |
-| **Radio** | 1.6.0 | 2.1.0 | Internet radio player — search and stream thousands of stations | [GitHub](https://github.com/penrithbeacon/wcp-widget-radio) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-radio) |
-| **Cloudflare** | 1.4.0 | 2.1.0 | Workers, Domains, and DNS management | [GitHub](https://github.com/penrithbeacon/wcp-widget-cloudflare) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-cloudflare) |
+| **Markdown Editor** | 1.1.0-beta | 2.1.0 | WYSIWYG markdown editor with folder browser and companion host agent | [GitHub](https://github.com/penrithbeacon/wcp-widget-markdown-editor) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-markdown-editor) |
+| **Claude Analytics** | 1.2.0 | 2.1.0 | Claude Code analytics + companion host agent *(experimental)* | [GitHub](https://github.com/penrithbeacon/wcp-widget-claude) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-claude) |
 | **GitHub** | 1.4.0 | 2.1.0 | Repository browser for any GitHub account | [GitHub](https://github.com/penrithbeacon/wcp-widget-github) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-github) |
 | **Docker** | 1.4.0 | 2.1.0 | Container management — local and remote Docker hosts | [GitHub](https://github.com/penrithbeacon/wcp-widget-docker) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-docker) |
-| **Claude Analytics** | 1.2.0 | 2.1.0 | Claude Code analytics + companion host agent *(experimental)* | [GitHub](https://github.com/penrithbeacon/wcp-widget-claude) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-claude) |
+| **Cloudflare** | 1.4.0 | 2.1.0 | Workers, Domains, and DNS management | [GitHub](https://github.com/penrithbeacon/wcp-widget-cloudflare) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-cloudflare) |
+| **Theme Studio** | 1.7.0 | 2.1.0 | Theme gallery and editor — 15 built-in themes + custom theme creator | [GitHub](https://github.com/penrithbeacon/wcp-widget-theme-studio) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-theme-studio) |
+| **Radio** | 1.6.0 | 2.1.0 | Internet radio player — search and stream thousands of stations | [GitHub](https://github.com/penrithbeacon/wcp-widget-radio) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-radio) |
+| **QR Generator** | 1.8.0 | 2.1.0 | QR code generation for any URL or text | [GitHub](https://github.com/penrithbeacon/wcp-widget-qr-generator) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-qr-generator) |
+| **Weather Ticker** | 1.6.0 | 2.1.0 | Live weather data via Open-Meteo API | [GitHub](https://github.com/penrithbeacon/wcp-widget-weather-ticker) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-widget-weather-ticker) |
 
-### Companion Services
+### Companion Agents
 
-| Service | Version | Description | Links |
-|---------|:-------:|-------------|:-----:|
+| Agent | Version | Description | Links |
+|-------|:-------:|-------------|:-----:|
+| **Markdown Editor Agent** | 1.0.2 | Host filesystem agent for the Markdown Editor widget — macOS | [GitHub](https://github.com/penrithbeacon/wcp-agent-markdown-editor) |
 | **Docker Agent** | 1.2.0 | Authenticated Docker socket proxy for remote container management | [GitHub](https://github.com/penrithbeacon/wcp-docker-agent) · [Docker Hub](https://hub.docker.com/r/penrithbeacon/wcp-docker-agent) |
-
----
-
-## AI-Powered Widget Documentation
-
-**One URL. Any AI. Fully compliant WCP documentation — generated, audited, and maintained automatically.**
-
-The **[WCP AI Automation](https://github.com/penrithbeacon/wcp-ai-automation)** repository contains everything an AI engine needs to produce standardised documentation for any WCP widget. Templates, audit checklists, release workflows, and a detailed AI skill document — all machine-readable and ready to consume.
-
-### How It Works
-
-Give your AI a single instruction:
-
-> _"Read https://github.com/penrithbeacon/wcp-ai-automation/blob/main/AI-SKILL.md and use it to create documentation for my WCP widget."_
-
-Your AI will:
-- Extract endpoints, components, and metadata from your widget source code
-- Generate a standards-compliant **README.md** and **DOCKER.md**
-- Run pre-release audits against the running container
-- Cross-reference every route in your code against the documentation
-
-| | |
-|--|--|
-| **Repository** | [penrithbeacon/wcp-ai-automation](https://github.com/penrithbeacon/wcp-ai-automation) |
-| **AI Skill** | [AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-automation/blob/main/AI-SKILL.md) |
-| **Standards Version** | 1.0.0 |
 
 ---
 
@@ -61,13 +37,7 @@ Your AI will:
 
 **One URL. Any AI. Design and build any WCP artefact — widget or agent — from first question to running code.**
 
-The **[WCP AI Build](https://github.com/penrithbeacon/wcp-ai-build)** repository is the
-entry point for building with AI. Give your AI a single URL and it will orient you in the
-WCP ecosystem, ask what you want to build, and walk you through every design and
-implementation decision — including technology choice, component structure, data sources,
-and packaging.
-
-### How It Works
+The **[WCP AI Build](https://github.com/penrithbeacon/wcp-ai-build)** repository is the entry point for building with AI. Give your AI a single URL and it will orient you in the WCP ecosystem, ask what you want to build, and walk you through every design and implementation decision — including technology choice, component structure, data sources, and packaging.
 
 Give your AI a single instruction:
 
@@ -76,16 +46,38 @@ Give your AI a single instruction:
 Your AI will ask what you want to build and route you to the appropriate specialist skill.
 You can also go directly to the right skill:
 
-| Want to build | Give your AI this URL |
-|---------------|----------------------|
+| Goal | Give your AI this URL |
+|------|-----------------------|
 | Not sure yet — start here | [wcp-ai-build/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build/blob/main/AI-SKILL.md) |
-| A widget | [wcp-ai-build-widget/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-widget/blob/main/AI-SKILL.md) |
-| An agent | [wcp-ai-build-agent/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-agent/blob/main/AI-SKILL.md) |
-| A macOS agent | [wcp-ai-build-agent-mac/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-agent-mac/blob/main/AI-SKILL.md) |
+| Build a widget | [wcp-ai-build-widget/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-widget/blob/main/AI-SKILL.md) |
+| Build an agent | [wcp-ai-build-agent/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-agent/blob/main/AI-SKILL.md) |
+| Build a macOS agent | [wcp-ai-build-agent-mac/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-build-agent-mac/blob/main/AI-SKILL.md) |
+| Release a widget or agent | [wcp-ai-release/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-release/blob/main/AI-SKILL.md) |
 
-You do not need to know the implementation technology. The AI will offer industry-standard
-options and proceed with a conservative, widely-adopted default if you prefer to defer
-that decision.
+You do not need to know the implementation technology. The AI will offer industry-standard options and proceed with a conservative, widely-adopted default if you prefer to defer that decision.
+
+---
+
+## 🚀 AI-Powered Release Pipeline
+
+**From verified local build to published Docker image and GitHub Release — guided by AI, with your consent at every public push.**
+
+The **[WCP AI Release](https://github.com/penrithbeacon/wcp-ai-release)** repository is the entry point for releasing any WCP artefact. It establishes the release stage (beta or production) and mode (dry run or live), then routes to the appropriate specialist skill.
+
+Give your AI a single instruction:
+
+> _"Read https://github.com/penrithbeacon/wcp-ai-release/blob/main/AI-SKILL.md and release my WCP widget."_
+
+The pipeline routes to the right specialist:
+
+| Artefact | Specialist skill |
+|----------|-----------------|
+| Widget | [wcp-ai-release-widget/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-release-widget/blob/main/AI-SKILL.md) |
+| Agent (macOS .pkg) | [wcp-ai-release-agent/AI-SKILL.md](https://github.com/penrithbeacon/wcp-ai-release-agent/blob/main/AI-SKILL.md) |
+
+The pipeline enforces explicit developer consent before every public push and closes with a mandatory written summary of every action taken — because the developer is personally responsible for everything published under their identity.
+
+The **[WCP AI Automation](https://github.com/penrithbeacon/wcp-ai-automation)** repository provides the supporting standards: documentation templates, audit checklists, and the widget build specification that the build and release pipelines reference.
 
 ---
 
@@ -101,7 +93,7 @@ This project is maintained by **Penrith Beacon Communications** ([penrithbeacon.
 |--|--|
 | **WCP Version** | 2.1.0 |
 | **Active Work** | Layout Doctrine implementation, widget ecosystem expansion, WCP Developer Guide |
-| **Coming Soon** | WCP Bonjour — zero-configuration service discovery for widgets |
+| **Coming Soon** | `ai.widgetcontextprotocol.com` — the complete AI build & release guide for WCP; WCP Bonjour — zero-configuration service discovery for widgets |
 | **Specification** | [widgetcontextprotocol.com](https://widgetcontextprotocol.com) |
 
 ### Penrith Beacon WCP Suite
@@ -124,6 +116,9 @@ The suite will be publicly released when it reaches public beta. In the meantime
 - [WCP AI Build — Widget](https://github.com/penrithbeacon/wcp-ai-build-widget)
 - [WCP AI Build — Agent](https://github.com/penrithbeacon/wcp-ai-build-agent)
 - [WCP AI Build — Agent (macOS)](https://github.com/penrithbeacon/wcp-ai-build-agent-mac)
+- [WCP AI Release](https://github.com/penrithbeacon/wcp-ai-release)
+- [WCP AI Release — Widget](https://github.com/penrithbeacon/wcp-ai-release-widget)
+- [WCP AI Release — Agent](https://github.com/penrithbeacon/wcp-ai-release-agent)
 - [WCP AI Automation](https://github.com/penrithbeacon/wcp-ai-automation)
 - [Penrith Beacon](https://penrithbeacon.com)
 - [Docker Hub — penrithbeacon](https://hub.docker.com/u/penrithbeacon)
