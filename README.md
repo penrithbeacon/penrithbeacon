@@ -103,6 +103,7 @@ The full application suite — not yet publicly released — consists of:
 - **Penrith Beacon Design Studio** — the primary development environment for creating, configuring, and curating widget orchestrations
 - **Penrith Beacon Orchestration Manager** — standalone orchestration management without the full studio
 - **Penrith Beacon Kiosk (Alpha / Beta / Release)** — a graduated launch pipeline that, in association with the Orchestration Manager, manages the transition of any widget or application from alpha through beta to production release
+- **Penrith Beacon Forge Transformer** *(not yet started)* — takes a distributable `.wcpa` application file and forges it into a fully independent native application for macOS, Linux, or Windows; handles transformation, packaging, and deployment into a standalone distributable
 
 The suite will be publicly released when it reaches public beta. In the meantime, the widgets, protocol specification, and developer guide are available now for anyone building with WCP.
 
