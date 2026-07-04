@@ -1,4 +1,39 @@
-# Penrith Beacon — Widget Context Protocol
+# Penrith Beacon
+
+Home of the **[Open AI Skill Package](https://openaiskillpackage.com/)** specification and the **[Widget Context Protocol](https://widgetcontextprotocol.com)** — two open standards for a new kind of AI-augmented computing.
+
+→ [Open AI Skill Package](#open-ai-skill-package)
+→ [Widget Context Protocol](#widget-context-protocol)
+
+---
+
+> ### AI Independence Day — 4 July 2026
+>
+> On 4 July 2026 — the date we mark as **AI Independence Day** — Penrith Beacon published the Open AI Skill Package specification: the first normative open standard to formalise the separation of AI computation from AI generation.
+>
+> Until now, when you asked an AI agent to perform a complex task, it authored the solution in the moment — reasoning its way through steps it had never verified, producing output that could differ each time. An AI Skill Package changes that contract. The procedure has been written in advance, tested, packaged, and signed. When the agent runs it, it executes work that already exists — against inputs you provide, toward an outcome that has already been verified.
+>
+> The computation is independent of the generation. **The AI becomes the executor, not the author.**
+>
+> That is the independence the date marks. This is where it began.
+
+---
+
+## Open AI Skill Package
+
+Penrith Beacon is the home of the **[Open AI Skill Package](https://openaiskillpackage.com/)** specification — an open standard that defines a new category of AI artefact: the `.aiskill` package.
+
+Most AI interactions are prompt-driven — a user types an instruction and the agent generates a response in the moment. An AI Skill Package is something different. It is a structured, versioned, unit-tested archive containing pre-authored procedure, executable scripts, templates, tests, and a manifest. When an agent receives one, the thinking has already been done. The agent does not improvise — it executes.
+
+The specification is published at [openaiskillpackage.com](https://openaiskillpackage.com/). The first package published under it is **CREATE-AISKILL** — the meta-skill from which every other AI Skill Package can be made.
+
+| Package | Version | Description | Links |
+|---------|:-------:|-------------|:-----:|
+| **CREATE-AISKILL** | 1.0.0 | The origin skill — scaffolds any new `.aiskill` package from a plain-language description | [GitHub](https://github.com/penrithbeacon/AISKILL-CREATE-AISKILL) · [Download v1.0.0](https://github.com/penrithbeacon/AISKILL-CREATE-AISKILL/releases/tag/v1.0.0) |
+
+---
+
+## Widget Context Protocol
 
 > Building the open standard for embeddable UI widgets in dashboard environments
 
